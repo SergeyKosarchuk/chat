@@ -35,7 +35,6 @@ class Client:
                 self._is_active = False
                 self.sock.detach()
                 self.sock.close()
-
                 break
             if not data_r:
                 print('Connection closed! Hit Enter...')
